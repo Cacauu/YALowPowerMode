@@ -4,6 +4,13 @@ YALowPowerMode is a Swift class that allows you to easily work with the iOS 9 Lo
 *Note: YALowPowerMode requires Swift 2.2 or higher.* 
 
 ##Usage
+
+At the moment, YALowPowerMode can either be installed manually or using Cocoapods. To use Cocoapods, add the following line to your Podfile:
+
+	pod ‘YALowPowerMode’
+
+Swift Package Manager (and maybe Carthage) are to follow eventually.
+
 Just create an instance of YALowPowerMode and you’re ready to go (in other words: You’re ready to access the *isActivated* property)!
 
 	var lowPowerMode: YALowPowerMode = YALowPowerMode()
@@ -22,7 +29,7 @@ You can go a step further (which is recommended) and use `YALowPowerModeDelegate
 I hate NSNotificationCenter code and I find it much clearer to use a wrapper around those lines of code in my projects as that make it easier to understand. Another advantage of YALowPowerMode is that the iOS Low Power Mode is only available on iOS 9.0 and higher but you don’t have to care about checking for availability, YALowPowerMode does that for you!
 
 ##Todo
-- [ ] Use Package Managers (Cocoapods, Carthage, Swift Package Manager)
+- [ ] Use Package Managers (<del>Cocoapods</del> ✓, Carthage, Swift Package Manager)
 
 ##Contribute
 If there is anything you would like to change or add to the class, don’t hesitate to create a pull request!
