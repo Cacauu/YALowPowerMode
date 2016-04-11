@@ -26,3 +26,5 @@ I hate NSNotificationCenter code and I find it much clearer to use a wrapper aro
 
 ##Contribute
 If there is anything you would like to change or add to the class, don’t hesitate to create a pull request!
+
+YALowPowerMode is released under MIT License, see License.txt for full details.
